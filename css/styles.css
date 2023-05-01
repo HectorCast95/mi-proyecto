@@ -164,10 +164,18 @@ footer {
   }
 }
 
-@media screen and (max-width: 420px) {
-  
-  /*Main*/
-  
+@media screen and (max-width: 430px) {
+  /* HEADER */
+
+  nav ul {
+    font-size: 20px;
+  }
+  nav ul li {
+    padding: 20px 10px;
+  }
+
+  /*MAIN*/
+
   .foto {
     height: 45vh;
   }
