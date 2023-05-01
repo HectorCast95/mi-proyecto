@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+/* GENERAL*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Serif", serif;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  font-size: 22px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+p {
+  margin: 20px 0px;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(0, 0, 0, 0.24) 0px 3px 8px;
+  left: 0;
+  top: 0;
+  position: fixed;
+  background: #fbfbfb;
+}
+
+.logo {
+  height: 80px;
+  float: left;
+  margin: 5px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+nav li {
+  padding: 20px 50px;
+}
+
+/* MAIN */
+
+section {
+  min-height: 100vh;
+  padding: 100px 15px;
+}
+
+.foto {
+  height: 70vh;
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+.boton {
+  padding: 10px 15px;
+  background: rgb(1, 169, 242);
+  border-radius: 40px;
+  font-size: 24px;
+  color: white;
+  margin: 20px 0px;
+}
+
+.boton:hover {
+  color: rgb(1, 169, 242);
+  background: #fbfbfb;
+  border: solid rgb(1, 169, 242);
+}
+
+#contacto div {
+  background-color: rgb(133, 219, 255);
+  border-radius: 40px;
+  padding: 30px;
+}
+
+#iconos {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 120px;
+  margin-top: 20px;
+}
+
+#iconos li:hover {
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(1, 169, 242);
+  padding: 30px 0px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  /* GENERAL */
+
+  Body {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+
+  /* HEADER */
+
+  nav ul {
+    font-size: 25px;
+  }
+  nav ul li {
+    padding: 20px 20px;
+  }
+
+  /* MAIN*/
+
+  .foto {
+    height: 60vh;
+  }
+  .boton {
+    font-size: 20px;
+  }
+  #iconos {
+    font-size: 80px;
+  }
+
+  /* FOOTER*/
+
+  footer {
+    padding: 20px 0px;
+  }
+}
