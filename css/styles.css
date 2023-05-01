@@ -163,3 +163,12 @@ footer {
     padding: 20px 0px;
   }
 }
+
+@media screen and (max-width: 420px) {
+  
+  /*Main*/
+  
+  .foto {
+    height: 45vh;
+  }
+}
